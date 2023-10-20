@@ -16,6 +16,7 @@ function completeSelect() {
 }
 
 function getCatByBreed() {
+  markup.hideError();
   markup.showLoader();
   const breedId = refs.breedSelect.value;
   console.log(breedId);
